@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Chip": {
+      "commandName": "Project",
+      "workingDirectory": "..\\GameFile"
+    }
+  }
+}
