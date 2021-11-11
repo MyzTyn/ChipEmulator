@@ -144,7 +144,7 @@ namespace Chip
             if (args.Length == 1)
                 filepath = args[0];
             else
-                Console.WriteLine("Please enter filepath only or drag game file to Chip.exe. Example: Chip.exe Space Invaders [David Winter].ch8");
+                throw new Exception("Please enter filepath only or drag game file to Chip.exe. Example: Chip.exe Space Invaders [David Winter].ch8");
 
             vm = new VirtualMachine(filepath);
             // Default VM Display: 500 x 500
